@@ -14,12 +14,16 @@ Convert raw images to jpg.
 
 ### Usage
 
-`./raw2jpg.sh -d /mnt/disk/raw-images/ -r true`
+e.g. `./raw2jpg.sh -d /mnt/disk/raw-images/ -r true`
 
 ### Options
 
-`-d` root directory of raw images
-`-r` remove original raw image after succesful conversion (false as default)
-`-w` overwrite existing jpg (redo the conversion otherwise will skip) (false as default)
+`-d` root directory of raw images, find and convert raw images recursively and parallerly.
+
+`-f` filename, convert a single raw image file.
+
+`-r` remove original raw image after succesful conversion (false as default).
+
+`-w` overwrite existing jpg (redo the conversion otherwise will skip) (false as default).
 
 
